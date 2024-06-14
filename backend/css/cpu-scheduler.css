@@ -1,0 +1,184 @@
+
+/* makes sure the cursor is pointer on all dropdown menu buttons*/
+a{
+  cursor: pointer;
+}
+
+
+/* prevents everything besides input field from being highlighted*/
+
+.progress-bar-container {
+  width: 1000px; /* Adjust width as needed */
+  height: 500px;
+  border-radius: 10px; /* Rounded corners */
+  overflow: hidden; /* Prevent segments from overflowing */
+}
+
+.progress-bar-idle {
+  background-color: #e0e0e0; /* Light gray */
+}
+
+.progress-bar-context {
+  background: linear-gradient(to right, #336699, #003366); /* Dark to light gray gradient */
+}
+
+.progress-bar-first {
+  background: linear-gradient(to right, #2ecc71, #008048); /* Emerald to dark green gradient */
+  width: 20%; /* Adjust width as needed */
+}
+
+.progress-bar-second {
+  background: linear-gradient(to right, #f1c40f, #d49a00); /* Sunshine yellow to orange gradient */
+  width: 30%; /* Adjust width as needed */
+}
+
+.progress-bar-third {
+  background: linear-gradient(to right, #e03997, #a8277a); /* Magenta to deep pink gradient */
+  width: 15%; /* Adjust width as needed */
+}
+
+.progress-bar-fourth {
+  background: linear-gradient(to right, #2196f3, #0d68c2); /* Royal blue to dark blue gradient */
+  width: 25%; /* Adjust width as needed */
+}
+
+.progress-bar-fifth {
+  background: linear-gradient(to right, #f56991, #d93977); /* Fuchsia to dark pink gradient */
+  width: 10%; /* Adjust width as needed */
+}
+
+.progress-bar-animation {
+  animation: progress-bar-animate 5s linear infinite; /* Add animation */
+}
+
+@keyframes progress-bar-animate {
+  0% {
+    transform: translateX(0); /* Start at 0% */
+  }
+  100% {
+    transform: translateX(100%); /* Move to 100% */
+  }
+}
+
+
+.progress .progress-bar
+{
+  font-size: 13px;
+  line-height: 21px;
+}
+.progress-bar-idle {
+  background-color: #e0e0e0; /* Light gray */
+}
+
+.progress-bar-context {
+  background-color: #333333; /* Dark gray */
+}
+
+.progress-bar-first {
+  background-color: #2ecc71; /* Emerald green */
+}
+
+.progress-bar-second {
+  background-color: #f1c40f; /* Sunshine yellow */
+}
+
+.progress-bar-third {
+  background-color: #e03997; /* Magenta */
+}
+
+.progress-bar-fourth {
+  background-color: #2196f3; /* Royal blue */
+}
+
+.progress-bar-fifth {
+  background-color: #f56991; /* Fuchsia */
+}
+
+.progress-bar-sixth {
+  background-color: #9b59b6; /* Amethyst */
+}
+
+.progress-bar-seventh {
+  background-color: #ff9800; /* Orange */
+}
+
+.progress-bar-eighth {
+  background-color: #c2185b; /* Maroon */
+}
+
+.progress-bar-ninth {
+  background-color: #673ab7; /* Deep purple */
+}
+
+.progress-bar-tenth {
+  background-color: #17a2b8; /* Turquoise */
+}
+
+.input-number-container {
+  display: flex; /* Create a container for better layout */
+  align-items: center; /* Align input vertically */
+  margin-bottom: 10px; /* Add some margin for spacing */
+}
+
+.input-number-label {
+  flex: 1; /* Allow label to fill remaining space */
+  margin-right: 5px; /* Add margin between label and input */
+  font-weight: bold; /* Make label bold */
+}
+
+.input-number {
+  /* Existing styles remain the same */
+}
+
+table {
+  width: 100%; /* Make table fill available width */
+  border-collapse: collapse; /* Remove borders between cells */
+}
+
+#outputTable th,
+#outputTable td {
+  /* Existing styles mostly remain the same */
+  text-align: left; /* Align content to the left */
+  border: 1px solid #ddd; /* Add borders around cells */
+  padding: 10px; /* Reduce padding for more compact layout */
+}
+
+.table-left-heading {
+  width: 20%; /* Set fixed width for left heading column */
+}
+
+.table-data-column {
+  width: 80%; /* Fill remaining space with data columns */
+}
+
+.ruler, .ruler li {
+  /* Existing styles mostly remain the same */
+}
+
+.ruler {
+  display: block; /* Display ruler horizontally across the table */
+  width: 100%; /* Span the full width of the table */
+  margin: 10px 0; /* Add margin above and below the ruler */
+}
+
+.tick-marks {
+  display: none; /* Hide tick marks for now */
+}
+
+legend {
+  /* Existing styles remain the same */
+  font-size: 14px; /* Reduce font size slightly */
+}
+
+.legend {
+  display: inline-block; /* Allow legends to appear inline */
+  margin: 0 5px; /* Add some margin between legends */
+}
+
+.btn-arrow-right,
+.btn-arrow-left {
+  /* Existing styles mostly remain the same */
+  display: inline-flex; /* Allow buttons to wrap content */
+  justify-content: center; /* Center button content */
+  align-items: center; /* Vertically align content */
+}
